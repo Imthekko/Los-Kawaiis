@@ -5,7 +5,7 @@ function createBot() {
         host: 'KawaiiBoys.aternos.me', // <--- REEMPLAZA ESTO POR LA IP DE TU SERVER
         port: 55530,                // Puerto predeterminado de Minecraft
         username: 'Yonfredi-kun',    // Nombre genérico del bot/NPC dentro del juego
-        version: false              // Autodetecta la versión exacta del servidor (1.8 a 1.21+)
+        version: '1.20.4'              // Autodetecta la versión exacta del servidor (1.8 a 1.21+)
     });
 
     bot.on('spawn', () => {

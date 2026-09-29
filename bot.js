@@ -1,12 +1,3 @@
-Nombre del primer archivo: bot.js
-Codigo del primer archivo:
-
-
-
-
-
-
-
 const mineflayer = require('mineflayer');
 
 function createBot() {
@@ -76,14 +67,3 @@ function createBot() {
 }
 
 createBot();
-
-
-
-
-
-
-
-
-
-    - name: Ejecutar script del NPC
-      run: node bot.js
